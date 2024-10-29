@@ -1,7 +1,6 @@
-import React from 'react'; // Add this if not already included
+"use client";
+import React from 'react';
 import { motion } from 'framer-motion';
-
-
 export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-teal-400">
