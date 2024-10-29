@@ -12,7 +12,7 @@ export default function Home() {
         transition={{ duration: 0.7 }}
         className="text-center"
       >
-        <h1 className="text-4xl font-bold text-white mb-4">Hello, I'm Jyotish!</h1>
+        <h1 className="text-4xl font-bold text-white mb-4">Hello, I&apos;m Jyotish!</h1>
         <p className="text-lg text-white">Welcome to my portfolio website. I am a passionate developer!</p>
       </motion.div>
       <div className="mt-16 w-full px-8">
