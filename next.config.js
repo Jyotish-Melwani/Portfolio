@@ -2,6 +2,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer');
 
 const nextConfig = {
   reactStrictMode: true,
+  output: 'export', // Add this line to enable static export
   webpack(config, { isServer }) {
     config.optimization.splitChunks = {
       chunks: 'all',
